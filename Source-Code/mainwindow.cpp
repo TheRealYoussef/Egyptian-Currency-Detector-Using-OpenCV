@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <qfiledialog.h>
-#include <circleandrectangledetector.h>
+#include "circleandrectangledetector.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
