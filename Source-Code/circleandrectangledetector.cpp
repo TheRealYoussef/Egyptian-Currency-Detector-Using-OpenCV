@@ -208,5 +208,7 @@ CircleAndRectangleDetector::CircleAndRectangleDetector(const std::string& fileNa
 
     drawCircles(circles, image, r);
 
+    cv::namedWindow("Image", cv::WINDOW_NORMAL);
+
     cv::imshow("Image", image);
 }
